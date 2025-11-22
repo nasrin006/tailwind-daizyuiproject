@@ -5,5 +5,8 @@
   },
   "devDependencies": {
     "daisyui": "^5.5.5"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify"
   }
 }
